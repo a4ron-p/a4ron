@@ -49,7 +49,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: transparent;
   position: relative;
   overflow: hidden;
   margin-top: 50px;
@@ -138,6 +138,7 @@ body {
 .hero-buttons .btn {
   opacity: 0;
   animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  width: 220px;
 }
 
 .hero-buttons .btn:nth-child(1) {
@@ -433,7 +434,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #000000 0%, #0a0a0a 100%);
+  background: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -557,7 +558,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #000000 0%, #0a0a0a 100%);
+background: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -885,7 +886,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #000000 0%, #0a0a0a 100%);
+  background: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -1906,7 +1907,8 @@ body {
 
 /* Background video styling for all sections */
 .section-bg-video {
-  position: absolute;
+  position: fixed;
+  min-width: 100vw;
   top: 0;
   left: 0;
   width: 100%;
