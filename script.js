@@ -252,7 +252,7 @@ if (contactForm) {
         throw new Error(errorMessage)
       }
     } catch (error) {
-      console.error("[v0] Error sending email:", error)
+      console.error("[aP] Error sending email:", error)
       alert(`Failed to send message: ${error.message}`)
       contactSubmitBtn.disabled = false
       contactSubmitBtn.textContent = "Send Message"
@@ -385,12 +385,12 @@ const techLanguages = [
     description:
       "A server-side scripting language perfect for building dynamic web applications and APIs. Known for its ease of use and powerful backend capabilities.",
     images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-logo-1vfuOuAW8XO47VbU3lOdnrm39JaaVI.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-logo-1vfuOuAW8XO47VbU3lOdnrm39JaaVI.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-logo-1vfuOuAW8XO47VbU3lOdnrm39JaaVI.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-logo-1vfuOuAW8XO47VbU3lOdnrm39JaaVI.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-logo-1vfuOuAW8XO47VbU3lOdnrm39JaaVI.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-logo-1vfuOuAW8XO47VbU3lOdnrm39JaaVI.jpg",
+      "php-logo.jpg",
+      "php-logo.jpg",
+      "php-logo.jpg",
+      "php-logo.jpg",
+      "php-logo.jpg",
+      "php-logo.jpg",
     ],
   },
   {
@@ -398,12 +398,12 @@ const techLanguages = [
     description:
       "The foundation of web development. HTML provides the structure and semantic meaning to web content, making it accessible and SEO-friendly.",
     images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html5-logo-E0AtIK9jdX1VZRIrbYdnci721Uq1J0.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html5-logo-E0AtIK9jdX1VZRIrbYdnci721Uq1J0.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html5-logo-E0AtIK9jdX1VZRIrbYdnci721Uq1J0.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html5-logo-E0AtIK9jdX1VZRIrbYdnci721Uq1J0.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html5-logo-E0AtIK9jdX1VZRIrbYdnci721Uq1J0.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html5-logo-E0AtIK9jdX1VZRIrbYdnci721Uq1J0.png",
+      "html5-logo.png",
+      "html5-logo.png",
+      "html5-logo.png",
+      "html5-logo.png",
+      "html5-logo.png",
+      "html5-logo.png",
     ],
   },
   {
